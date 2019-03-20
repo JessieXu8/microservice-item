@@ -18,6 +18,7 @@ public class ItemService {
     }
 
     public Item findItemById(Long id) {
+        System.out.println("I am item client 1");
         return MAP.get(id);
     }
 }
